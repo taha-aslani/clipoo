@@ -1,0 +1,13 @@
+[[permission]]
+identifier = "clipoo-db"
+description = "Allow Clipoo to read and write the local clipboard database"
+commands.allow = [
+  "list_clipboard_items",
+  "search_clipboard_items",
+  "pin_clipboard_item",
+  "delete_clipboard_item",
+  "clear_clipboard_history",
+  "copy_clipboard_item",
+  "get_settings",
+  "update_settings"
+]
